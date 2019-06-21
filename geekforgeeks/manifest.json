@@ -1,0 +1,12 @@
+{
+    "name": "GeeksForGeeks Prettier",
+    "version": "2.1",
+    "manifest_version": 2,
+    "description": "Removes ads from geekforgeeks site..",
+    "background": {
+      "persistent": false,
+      "scripts": ["background.js"],
+      "run_at": "document_end"
+    },
+    "permissions": ["https://*.geeksforgeeks.org/", "webNavigation", "activeTab"]
+  }
